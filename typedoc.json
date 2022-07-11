@@ -1,0 +1,10 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "entryPoints": [
+        "packages2/*"
+      ],
+    "out": "doc",
+    "entryPointStrategy": "expand",
+    "excludePrivate": true,
+    "excludeNotDocumented": true
+}

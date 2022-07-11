@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "declarationDir": "types",
+      "declaration": true,
+      "baseUrl": ".",
+      "target": "es5",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "lib": [ "dom", "es5", "es2015" ],
+      "sourceMap": true,
+      "removeComments": false,
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
+      "downlevelIteration": true,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitAny": false,
+      "noImplicitReturns": false,
+      "noImplicitThis": false,
+      "noUnusedLocals": false,
+      "strictNullChecks": false,
+      "suppressImplicitAnyIndexErrors": true
+    },
+    "include": [
+        "packages2/**/*"
+    ]
+  }
